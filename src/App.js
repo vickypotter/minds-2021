@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import EventList from './Components/Events/EventList';
+import ArtistryEvent from "./Components/Events/EventDescription/ArtistryEvent";
+import InvenirerEvent from "./Components/Events/EventDescription/InvenirerEvent";
+import KodekombatEvent from "./Components/Events/EventDescription/KodekombatEvent";
+import NethuntEvent from "./Components/Events/EventDescription/NethuntEvent";
+import RendezvouEvent from "./Components/Events/EventDescription/RendezvouEvent";
+import ThinklyticsEvent from "./Components/Events/EventDescription/ThinklyticsEvent";
 import './App.css';
-
+import FullNav from './Components/NavMenu/FullNav';
+import Home from './Components/HomePage/Home';
+import Schedule from './Components/SchedulePage/Schedule';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <FullNav />
+        <main>
+          <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route exact path='/#about' component={Home}/>
+            <Route exact path='/events' component={EventList}/>
+            <Route exact path='/schedule' component={Schedule}/>
+            <Route exact path='/artistry' component={ArtistryEvent}/>
+            <Route exact path='/invenirer' component={InvenirerEvent}/>
+            <Route exact path='/kodekombat' component={KodekombatEvent}/>
+            <Route exact path='/nethunt' component={NethuntEvent}/>
+            <Route exact path='/rendezvous' component={RendezvouEvent}/>
+            <Route exact path='/thinklytics' component={ThinklyticsEvent}/>
+          </Switch>
+        </main>        
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,42 @@
+@import url('http://fonts.cdnfonts.com/css/mohave');
+
+.schedule-minds-logo
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  z-index: 1000;
+  /* float: left; */
+}
+
+.schedule-minds-logo img
+{
+  height: auto;
+  width: 200px;
+}
+.schedule-title
+{
+    margin: 20px 10px;
+    font-size: 35px;
+}
+
+.schedule-title h4
+{
+    /* margin: 20px 10px; */
+    font-size: 35px !important;
+    color: rgb(27, 27, 27) !important;
+    font-family: 'Mohave', sans-serif !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;                                                
+}
+
+
+@media screen and (max-width: 992px) 
+{
+    #tableContainer
+    {
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.footer-box
+{
+    background-color: #121212;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    background-image: url('../../../assets/bg-footer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:40%;
+}
+
+
+.contact-title
+{
+    font-size: 3em !important;
+    color: rgb(255, 255, 255);    
+}
+
+.contact-title::after
+{
+    content: '.';
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+    font-size: 50px;
+    visibility: hidden;
+}
+
+.footer-line
+{
+    height: 7px;
+    background-color: orangered;
+    outline: none;
+    border: none;
+    width: 80px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+
+.footer-flex-box
+{
+    /* background-color: aliceblue; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-flex-box .contact
+{
+    margin: 20px;
+    text-align: center;
+}
+
+.footer-flex-box .contact h6
+{
+    color:  white !important;
+    font-size: 25px !important;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+}
+
+.footer-flex-box .contact .roll
+{
+    color: rgb(255, 80, 16);
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+}
+
+.footer-contact-btn
+{
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    text-transform: lowercase !important;
+}
+
+.footer-contact-btn:hover
+{
+    color: orangered !important;
+}
+
+.dev-team
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dev-team .dev-team-tittle
+{
+    font-size: 30px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.dev-team-flex-box
+{
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.dev-team h6
+{
+    color:  white !important;
+    font-size: 20px !important;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+}
+
+.dev-team .dev-roll
+{
+    color: rgb(255, 80, 16);
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+}
+
+.dev-team .dev-contact-icon
+{
+    color: white !important;
+}
+
+.dev-team .dev-contact-icon:hover
+{
+    color: orangered !important;
+}
+
+.dev-member
+{
+    padding: 10px 5px;
+}
+
+.footer-nav-link
+{
+    display: table;
+    /* background-color: aqua; */
+    width: 100%;
+    text-align: center;
+}
+
+.footer-nav-link ul 
+{
+ list-style: none;
+ padding: 10px;
+}
+
+.footer-nav-link ul li
+{
+    display: inline;
+    padding: 20px 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.footer-nav-link ul li a
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.footer-nav-link ul li a:hover
+{
+    color: orangered;
+}
+
+.minds-2021-mail
+{
+    color: #04d9ff !important;
+    text-decoration: none !important;
+    text-transform: lowercase !important;
+    font-family: 'Roboto', sans-serif !important;
+    margin-bottom: 20px;
+    font-size: 18px !important;
+}
+
+.minds-2021-mail:hover
+{
+    color: orangered !important;
+}

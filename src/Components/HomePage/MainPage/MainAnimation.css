@@ -1,0 +1,75 @@
+.main-page
+{
+    height: 100vh;
+    background-color: #006eff;
+    scroll-behavior: smooth;
+    background-image: url('../../../assets/time-bg.jpg');
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-page-logo-box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    /* background-color: red; */
+    text-align: center;
+}
+.main-page-minds-logo
+{
+    z-index: 1000;
+    width: 900px;
+    height: auto;
+}
+
+a.read-more-btn
+{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 30px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    overflow: hidden;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    scroll-behavior: smooth;
+}
+
+
+a.read-more-btn:hover
+{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+  
+
+
+
+@media only screen and (max-width: 768px) 
+{
+    .main-page-minds-logo
+    {
+        width: 300px;
+        height: auto;
+    }
+
+    #home-page-particles  > div:first-child
+    {
+        height: 100vh;
+    }
+
+    
+}
