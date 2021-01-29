@@ -50,7 +50,7 @@ function RendezvouEvent() {
                 <div className="round-rules">
                     <Accordion square expanded={expanded === 'round1'} onChange={AccordionStateChange('round1')}>
                         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                            <Typography variant='h5' className='round-1-txt'>Round #1 <b>Aptitude and Coding MCQ</b> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-1-txt'>Round #1 <span className='round-type'>Aptitude and Coding MCQ</span> <span className='event-mode'>Online</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
@@ -79,7 +79,7 @@ function RendezvouEvent() {
                     </Accordion>
                     <Accordion square expanded={expanded === 'round2'} onChange={AccordionStateChange('round2')}>
                         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-                            <Typography variant='h5' className='round-2-txt'>Round #2 <b>Group Discussion</b> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-2-txt'>Round #2 <span className='round-type'>Group Discussion</span> <span className='event-mode'>Online</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
@@ -108,7 +108,7 @@ function RendezvouEvent() {
                     </Accordion>
                     <Accordion square expanded={expanded === 'round3'} onChange={AccordionStateChange('round3')}>
                         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-                            <Typography variant='h5' className='round-2-txt'>Round #3 <b>HR</b> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-2-txt'>Round #3 <span className='round-type'>HR</span> <span className='event-mode'>Online</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
@@ -143,7 +143,7 @@ function RendezvouEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >05/02/2021</Typography>
+                        <Typography variant='h5' >08/02/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>60</span> <br/>
                             Minutes
@@ -151,7 +151,7 @@ function RendezvouEvent() {
                     </div>
                     <div className="round-2-duration">
                         <Typography variant='h6' gutterBottom>Round #2</Typography> 
-                        <Typography variant='h5' >09/02/2021</Typography>
+                        <Typography variant='h5' >08/02/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>30</span> <br/>
                             Minutes
@@ -159,9 +159,9 @@ function RendezvouEvent() {
                     </div>
                     <div className="round-2-duration">
                         <Typography variant='h6' gutterBottom>Round #3</Typography> 
-                        <Typography variant='h5' >11/02/2021</Typography>
+                        <Typography variant='h5' >13/02/2021</Typography>
                         <Typography variant='h2' gutterBottom>
-                            <span>20</span> <br/>
+                            <span>60</span> <br/>
                             Minutes
                         </Typography>                        
                     </div>

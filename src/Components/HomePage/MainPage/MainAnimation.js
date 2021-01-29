@@ -3,6 +3,7 @@ import ReactParticles from "react-particles-js";
 import './MainAnimation.css';
 import MindsLogo from '../../../assets/minds_2021_Logo.png';
 import Tilt from 'react-parallax-tilt';
+import Typography from '@material-ui/core/Typography'
 
 function MainAnimation() {
     return (
@@ -10,6 +11,8 @@ function MainAnimation() {
           <Particles>          
             <div className="main-page-logo-box">
                 <Tilt tiltReverse={true}>
+                  <Typography variant="h3" className='main-anim-title clg-name' color="initial">PSG College of Technology</Typography>
+                  <Typography variant="h5" className='main-anim-title caa-name' color="initial">Computer Applications Association</Typography>
                     <img src={MindsLogo} alt="" className="main-page-minds-logo"/>
                 </Tilt>
                 <a href="#about" className='read-more-btn'><span className='explore-span'>Explore</span></a>

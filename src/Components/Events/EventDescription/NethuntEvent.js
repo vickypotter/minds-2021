@@ -112,7 +112,7 @@ function NethuntEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >07-Feb to 09-Feb</Typography>
+                        <Typography variant='h5' >05-Feb to 07-Feb</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>3</span> <br/>
                             Days

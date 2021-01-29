@@ -1,12 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rambla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
 .main-page
 {
     height: 100vh;
-    background-color: #006eff;
+    background-color: #002e69;
     scroll-behavior: smooth;
-    background-image: url('../../../assets/time-bg.jpg');
+    background-image: url('../../../assets/time-bg-2-min.jpg');
     background-position: 100%;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.main-anim-title
+{
+    color: white !important;
+}
+
+.clg-name
+{
+    font-size: 35px !important;
+    font-family: 'Rambla', sans-serif !important;
+    letter-spacing: 1px;
+}
+
+.caa-name
+{
+    font-size: 22px !important;
+    font-family: 'Roboto', sans-serif !important;
+    /* font-family: 'Kaushan Script', sans-serif !important; */
+    font-weight: 500;
 }
 
 
@@ -71,5 +96,16 @@ a.read-more-btn:hover
         height: 100vh;
     }
 
+    .clg-name
+    {
+        padding: 5px;
+        font-size: 27px !important;
+    }
+
+    .caa-name
+    {
+        font-size: 18px !important;
+        padding: 5px;
+    }
     
 }

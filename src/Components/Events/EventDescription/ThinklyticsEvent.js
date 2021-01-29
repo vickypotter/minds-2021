@@ -50,7 +50,7 @@ function ThinklyticsEvent() {
                 <div className="round-rules">
                     <Accordion square expanded={expanded === 'round1'} onChange={AccordionStateChange('round1')}>
                         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                            <Typography variant='h5' className='round-1-txt'>Round #1 <b>Off-Stage</b> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-1-txt'>Round #1 <span className='round-type'>Off-Stage</span> <span className='event-mode'>Online</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
@@ -71,7 +71,7 @@ function ThinklyticsEvent() {
                     </Accordion>
                     <Accordion square expanded={expanded === 'round2'} onChange={AccordionStateChange('round2')}>
                         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-                            <Typography variant='h5' className='round-2-txt'>Round #2 <b>On-Stage</b> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-2-txt'>Round #2 <span className='round-type'>On-Stage</span> <span className='event-mode'>Online</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
@@ -110,15 +110,15 @@ function ThinklyticsEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >06/02/2021</Typography>
+                        <Typography variant='h5' >09/02/2021</Typography>
                         <Typography variant='h2' gutterBottom>
-                            <span>40</span> <br/>
+                            <span>60</span> <br/>
                             Minutes
                         </Typography>                        
                     </div>
                     <div className="round-2-duration">
                         <Typography variant='h6' gutterBottom>Round #2</Typography> 
-                        <Typography variant='h5' >09/02/2021</Typography>
+                        <Typography variant='h5' >15/02/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>60</span> <br/>
                             Minutes

@@ -26,10 +26,10 @@
 {
     /* margin: 20px 10px; */
     font-size: 35px !important;
-    color: rgb(27, 27, 27) !important;
+    color: rgb(255, 255, 255) !important;
     font-family: 'Mohave', sans-serif !important;
     font-weight: 700 !important;
-    text-transform: uppercase;                                                
+    text-transform: capitalize;                                                
 }
 
 

@@ -78,9 +78,9 @@ function ArtistryEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>                        
-                        <Typography variant='h6' >09-Feb to 12-Feb</Typography>
+                        <Typography variant='h6' >06-Feb to 09-Feb</Typography>
                         <Typography variant='h2' gutterBottom>
-                            <span>3</span> <br/>
+                            <span>4</span> <br/>
                             Days
                         </Typography>                        
                     </div>
@@ -241,7 +241,7 @@ function Particles({ children }) {
             left: 0,
             right: 0,
             bottom: 0,
-            top: 0
+            top: 0,
           }}
         />
         {children && <div style={{ position: 'relative', zIndex:0 }}>{children}</div>}

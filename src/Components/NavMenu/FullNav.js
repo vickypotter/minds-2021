@@ -112,9 +112,10 @@ export default function FullNav() {
           <center>
             <img src={MindsLogo} className='fullnav-minds-logo' alt="Minds 2021 logo"/>            
           </center>            
-            <List component="nav" className={classes.menuItemsBox} aria-label="contacts">
+            <List component="ul" className={classes.menuItemsBox}>
                 <ListItem component={Link} className={classes.menuLink} to='/' onClick={handleClose}>                    
                     <ListItemText  className={classes.menuLinkTxt} primary="Home" />
+                    {/* <p>Home</p> */}
                 </ListItem> <br/>
                 <ListItem component={Link} to='/#about' className={classes.menuLink} onClick={handleClose}>                    
                     <ListItemText className={classes.menuLinkTxt} primary="About" />

@@ -112,7 +112,7 @@ function KodekombatEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >08/02/2021</Typography>
+                        <Typography variant='h5' >16/02/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>30</span> <br/>
                             Minutes
@@ -120,7 +120,7 @@ function KodekombatEvent() {
                     </div>
                     <div className="round-2-duration">
                         <Typography variant='h6' gutterBottom>Round #2</Typography> 
-                        <Typography variant='h5' >09/02/2021</Typography>
+                        <Typography variant='h5' >17/02/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>30</span> <br/>
                             Minutes
@@ -147,7 +147,7 @@ function KodekombatEvent() {
                     <Typography variant='h6' gutterBottom>
                         <MailIcon className='icon'/> 
                         <span> 
-                            <a className="member-contact" id='long-mail' href="mailto:susmithajaganathan2499@gmail.com">susmithajaganathan2499@gmail.com</a> </span>
+                            <a className="member-contact" id='long-mail' href="mailto:susmithajaganathan99@gmail.com">susmithajaganathan99@gmail.com</a> </span>
                     </Typography>
                     <Typography variant='h6'gutterBottom>
                         <PhoneIphoneIcon className='icon'/>  
