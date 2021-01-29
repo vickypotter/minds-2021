@@ -56,16 +56,12 @@ function ThinklyticsEvent() {
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>  
-                                    20 Multiple choice questions
+                                    20 Multiple choice questions to test both your reasoning and analytical skills.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Participants should attend this round individually
-                                </li>
-                                <li>
-                                    <span className='list-arrow'>&#10149;</span> 
-                                    The questions will test both your reasoning and analytical skills
-                                </li>
+                                    Only individual participation is allowed.
+                                </li>                                
                             </ul>
                         </AccordionDetails>
                     </Accordion>
@@ -77,23 +73,27 @@ function ThinklyticsEvent() {
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Maximum 2 members per team
+                                    Maximum 2 members per team.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Teams will be allotted by the coordinators based on the results from Round-1 
+                                    Teams will be allotted by the Co-Ordinators based on the results from Round-1. 
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Shortlisted teams will be announced a day before Round 2
+                                    Shortlisted teams will be announced a day before Round 2.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Each team will be provided with a particular data set wherein they are supposed to find out the key statistical facts from it
+                                    Each team will be provided with a particular dataset wherein they are supposed to find out the key statistical facts.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Also, each team will be provided with a topic relevant to their dataset so that they should bring up an efficient Entity-Relationship model
+                                    Also, each team will be provided with a topic relevant to their dataset to bring up an efficient Entity-Relationship model.
+                                </li>
+                                <li>
+                                    <span className='list-arrow'>&#10149;</span> 
+                                    Winners will be based on the Entity-Relationship model and statistical insights.
                                 </li>
                             </ul>
                         </AccordionDetails>

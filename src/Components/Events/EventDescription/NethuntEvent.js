@@ -59,7 +59,7 @@ function NethuntEvent() {
                                     <span className='list-arrow'>&#10149;</span> Guess the computer related technical term from image displayed.
                                 </li>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> Answers are to be entered in Textbox Provided.
+                                    <span className='list-arrow'>&#10149;</span> Answers are to be entered in text box provided.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> Clues will be provided for every image after few tries.
@@ -67,14 +67,14 @@ function NethuntEvent() {
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> For every image
                                     <li>
-                                        <span className='list-arrow'>&#8658;</span> First clue appears after <b>50 hits</b> (“Hit” - Each try of word)
+                                        <span className='list-arrow'>&#8658;</span> First clue appears after <b>50 hits</b> (“Hit” - Each try of word).
                                     </li>
                                     <li>
-                                        <span className='list-arrow'>&#8658;</span> Second clue appears after <b>125 hits</b>
+                                        <span className='list-arrow'>&#8658;</span> Second clue appears after <b>125 hits.</b>
                                     </li>
                                 </li>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> The answers should or will not contain any special characters ( , + * / &#60; &#62; &#38; )
+                                    <span className='list-arrow'>&#10149;</span> The answers should not contain any special characters ( , + * / &#60; &#62; &#38; ).
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> Ignore the space between the words in the answer.
@@ -83,10 +83,10 @@ function NethuntEvent() {
                                     </li>
                                 </li> 
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> In case of tie, winner will be selected based on less number of tries
+                                    <span className='list-arrow'>&#10149;</span> In case of tie, winner will be selected based on less number of tries.
                                 </li>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> Any form of malpractice will lead to disqualification; Organisers have all the rights to disqualify anyone without any prior notice
+                                    <span className='list-arrow'>&#10149;</span> Any form of malpractice will lead to disqualification. Organisers have all the rights to disqualify anyone without any prior notice.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> Selection will be made after verification of student’s credentials. Students with invalid credentials will be disqualified.

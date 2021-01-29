@@ -11,8 +11,9 @@ function MainAnimation() {
           <Particles>          
             <div className="main-page-logo-box">
                 <Tilt tiltReverse={true}>
-                  <Typography variant="h3" className='main-anim-title clg-name' color="initial">PSG College of Technology</Typography>
-                  <Typography variant="h5" className='main-anim-title caa-name' color="initial">Computer Applications Association</Typography>
+                  <Typography variant="h3" className='main-anim-title clg-name'>PSG College of Technology</Typography>
+                  <Typography variant="h5" className='main-anim-title dept-name'>Department of Computer Applications</Typography>
+                  <Typography variant="h5" className='main-anim-title caa-name'>Computer Applications Association</Typography>
                     <img src={MindsLogo} alt="" className="main-page-minds-logo"/>
                 </Tilt>
                 <a href="#about" className='read-more-btn'><span className='explore-span'>Explore</span></a>

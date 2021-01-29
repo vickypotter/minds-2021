@@ -32,7 +32,7 @@ function InvenirerEvent() {
                     <hr className='hard-line'/>
                     <Typography variant='h6' align='left' gutterBottom> <br/>
                         <q>
-                            Are you crazy about your knowledge in computer science and programming? Come and show all your craziness about computer science and justify your love for programming. Invenirer is a coding event where you need to find a solution for the first question and have to use the result of the first question to unleash the second question
+                            Are you crazy about your knowledge in computer science and programming? Come and show all your craziness about computer science and justify your love for programming. Invenirer is a coding event where you need to find a solution for the first question and have to use the result of the first question to unleash the second question.
                         </q>
                     </Typography>
                 </div>
@@ -56,19 +56,19 @@ function InvenirerEvent() {
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    Participants have to solve two problems. Solve the second one using the output of the first
+                                    The Participants have to solve two problems. Solve the second problem using the output of the first.
                                 </li> 
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    Winners will be decided based on the completion time and efficiency
+                                    Winners will be decided based on the completion time and efficiency.
                                 </li> 
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    1 member per team
+                                    Only individual participation is allowed.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    The participants can choose their preferred language
+                                    The Participants can choose their preferred programming language.
                                 </li>  
                             </ul>
                         </AccordionDetails>

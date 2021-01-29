@@ -56,26 +56,22 @@ function KodekombatEvent() {
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    This round consists of 20 code snippets
-                                </li>
+                                    This round consists of 20 code snippets.
+                                </li>                                
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span>
-                                    The lines of code in each snippet will be jumbled and has to be put together to achieve the expected output. 
+                                    <span className='list-arrow'>&#10149;</span> 
+                                    The Participants will be solving either by rearranging the jumbled snippets or by solving the snippet to get the expected output.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Participants who solve maximum problems within the shortest time will be qualified for the next round
+                                    This event will be conducted in the online platform, Kahoot.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    This event will be conducted on the online platform, Kahoot
+                                    Only individual participation is allowed.
                                 </li>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> 
-                                    Individual participation
-                                </li>
-                                <li>
-                                    <span className='list-arrow'>&#10149;</span> Language: <b>C</b>
+                                    <span className='list-arrow'>&#10149;</span>Language: <b>C</b>
                                 </li>
                             </ul>
                         </AccordionDetails>
@@ -88,14 +84,14 @@ function KodekombatEvent() {
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    In this round, the selected participants from the first round will be competing against another participant (one to one)
+                                    In this round, the selected participants from the first round will be competing against another participant (one to one).
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    Participant who completes the task in the shortest time will be declared as the winner
+                                    The Participant who completes the task in the shortest time will be declared as the winner.
                                 </li>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> Language: <b>C, C++, Java </b>                                   
+                                    <span className='list-arrow'>&#10149;</span>Language: <b>C, C++, Java </b>                                   
                                 </li>
                             </ul>
                         </AccordionDetails>

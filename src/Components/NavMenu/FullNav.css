@@ -22,6 +22,7 @@
 }
 
 .MuiListItem-root:hover
+
 {
     background-position: 0 100% !important;    
 }
@@ -41,6 +42,51 @@
     height: auto;
     z-index: 10001;
     text-align: center;
+}
+
+.full-screen-nav
+{
+    width: 100%;
+    /* background-color: pink; */
+    text-align: center;
+}
+
+.full-screen-nav ul
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.full-screen-nav ul li
+{
+    font-size: 35px;
+    display: block;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.full-screen-nav ul li .full-nav-link
+{
+    color: white;
+    color: #fff !important;
+    overflow: hidden !important;
+    background: linear-gradient(to right, #000, #000 50%, #fff 50%) !important;
+    /* background: linear-gradient(to top, #6a11cb 0%, #2575fc 100%) !important; */
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-size: 200% 100% !important; 
+    background-position: 100% !important;
+    transition: background-position 275ms ease !important;
+    text-decoration: none !important;
+}
+
+.full-screen-nav ul li .full-nav-link:hover
+{
+    background-position: 0 100% !important;    
+
 }
 
 @media only screen and (max-width: 768px) 

@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Dialog from '@material-ui/core/Dialog';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItem from '@material-ui/core/ListItem';
-import List from '@material-ui/core/List';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
@@ -112,10 +109,10 @@ export default function FullNav() {
           <center>
             <img src={MindsLogo} className='fullnav-minds-logo' alt="Minds 2021 logo"/>            
           </center>            
-            <List component="ul" className={classes.menuItemsBox}>
+            {/* <List component="ul" className={classes.menuItemsBox}>
                 <ListItem component={Link} className={classes.menuLink} to='/' onClick={handleClose}>                    
                     <ListItemText  className={classes.menuLinkTxt} primary="Home" />
-                    {/* <p>Home</p> */}
+                    
                 </ListItem> <br/>
                 <ListItem component={Link} to='/#about' className={classes.menuLink} onClick={handleClose}>                    
                     <ListItemText className={classes.menuLinkTxt} primary="About" />
@@ -126,7 +123,23 @@ export default function FullNav() {
                 <ListItem component={Link} to='/schedule' className={classes.menuLink} onClick={handleClose}>                    
                     <ListItemText className={classes.menuLinkTxt} primary="Schedule" />
                 </ListItem>
-            </List>
+            </List> */}
+            <nav className='full-screen-nav'>
+              <ul>
+                <li>
+                  <Link to='/' className='full-nav-link' onClick={handleClose}> Home </Link>
+                </li>
+                <li>
+                  <Link to='/#about' className='full-nav-link' onClick={handleClose}> About </Link>
+                </li>
+                <li>
+                  <Link to='/events' className='full-nav-link' onClick={handleClose}> Events </Link>
+                </li>
+                <li>
+                  <Link to='/schedule' className='full-nav-link' onClick={handleClose}> Schedule </Link>                
+                </li>                
+              </ul>
+            </nav>
         </Box>
       </Dialog>
     </div>

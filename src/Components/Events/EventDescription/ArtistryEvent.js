@@ -55,13 +55,16 @@ function ArtistryEvent() {
                         <AccordionDetails>
                             <ul className='rules-list'>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> The participants can either use software like Adobe Photoshop, Adobe Illustrator or hand-draw the picture based on the topic given to them
+                                    <span className='list-arrow'>&#10149;</span> Participants have to visualize and illustrate a picture based on the theme of the event.
                                 </li>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> The participants have to email the final picture ( .psd file or .ai file or .jpg file )
+                                    <span className='list-arrow'>&#10149;</span> The participants can either use software like Adobe Photoshop, Adobe Illustrator to design or draw the picture based on the topic given.
                                 </li>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> The best creative art will win 
+                                    <span className='list-arrow'>&#10149;</span> The participants have to email the final picture ( .psd file or .ai file or .jpg file ).
+                                </li>
+                                <li>
+                                    <span className='list-arrow'>&#10149;</span> The best creative art will win.
                                 </li>
                             </ul>
                         </AccordionDetails>

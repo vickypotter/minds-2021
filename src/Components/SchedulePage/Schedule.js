@@ -106,7 +106,7 @@ function Schedule() {
                                 <StyledTableCell align="center">
                                     <Typography component={Link} to='/rendezvous' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Rendezvous - 1st Round </Typography>                                    
                                 </StyledTableCell>
-                                <StyledTableCell align="center" rowSpan={2}>08/02/2021</StyledTableCell>
+                                <StyledTableCell align="center" rowSpan={2}>08-02-2021</StyledTableCell>
                                 <StyledTableCell align="center">04:30 PM - 05:30 PM</StyledTableCell>
                             </TableRow>
 
@@ -123,7 +123,7 @@ function Schedule() {
                                 <StyledTableCell align="center">
                                     <Typography component={Link} to='/thinklytics' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Thinklytics – 1st Round</Typography>
                                 </StyledTableCell>
-                                <StyledTableCell align="center">09/02/2021</StyledTableCell> 
+                                <StyledTableCell align="center">09-02-2021</StyledTableCell> 
                                 <StyledTableCell align="center">04:30 PM - 05:30 PM</StyledTableCell>                                
                             </TableRow>
 
@@ -132,35 +132,35 @@ function Schedule() {
                                 <StyledTableCell align="center">
                                     <Typography component={Link} to='/invenirer' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Invenirer</Typography> 
                                 </StyledTableCell>
-                                <StyledTableCell align="center">10/02/2021</StyledTableCell> 
+                                <StyledTableCell align="center">10-02-2021</StyledTableCell> 
                                 <StyledTableCell align="center">04:30 PM - 06:00 PM</StyledTableCell>                                
                             </TableRow>
                             <TableRow>
                                 <StyledTableCell align="center">
                                     <Typography component={Link} to='/rendezvous' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Rendezvous - Final Round</Typography>
                                 </StyledTableCell>
-                                <StyledTableCell align="center">13/02/2021</StyledTableCell> 
+                                <StyledTableCell align="center">13-02-2021</StyledTableCell> 
                                 <StyledTableCell align="center">04:30 PM - 05:30 PM</StyledTableCell>                                
                             </TableRow>
                             <TableRow>
                                 <StyledTableCell align="center">
                                     <Typography component={Link} to='/thinklytics' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Thinklytics – Final Round</Typography>
                                 </StyledTableCell>
-                                <StyledTableCell align="center">15/02/2021</StyledTableCell> 
+                                <StyledTableCell align="center">15-02-2021</StyledTableCell> 
                                 <StyledTableCell align="center">04:30 PM - 05:30 PM</StyledTableCell>                                
                             </TableRow>
                             <TableRow>
                                 <StyledTableCell align="center">
                                     <Typography component={Link} to='/kodekombat' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Kode Kombat – 1st Round</Typography>
                                 </StyledTableCell>
-                                <StyledTableCell align="center">16/02/2021</StyledTableCell>                                
+                                <StyledTableCell align="center">16-02-2021</StyledTableCell>                                
                                 <StyledTableCell align="center">04:30 PM - 05:00 PM</StyledTableCell>                                
                             </TableRow>
                             <TableRow>
                                 <StyledTableCell align="center">
                                     <Typography component={Link} to='/kodekombat' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Kode Kombat – Final Round</Typography>
                                 </StyledTableCell>
-                                <StyledTableCell align="center">17/02/2021</StyledTableCell>                                
+                                <StyledTableCell align="center">17-02-2021</StyledTableCell>                                
                                 <StyledTableCell align="center">04:30 PM - 05:00 PM</StyledTableCell>                                
                             </TableRow>
                         </TableBody>

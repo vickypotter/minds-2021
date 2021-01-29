@@ -56,15 +56,15 @@ function RendezvouEvent() {
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    This round will be held in Kahoot!
+                                    This round will be conducted in the online platform, Kahoot.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    Aptitude and Technical tests are conducted to enhance the skills of the participants
+                                    Aptitude and Technical tests are conducted to enhance the skills of the participants.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    The aptitude test consists of 20 questions from quants, reasoning and verbal 
+                                    The aptitude test consists of 20 questions from quants, reasoning and verbal. 
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
@@ -72,7 +72,7 @@ function RendezvouEvent() {
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    Top 20 participants will enter Round 2
+                                    Top 20 participants will enter Round 2.
                                 </li>
                             </ul>
                         </AccordionDetails>
@@ -85,49 +85,45 @@ function RendezvouEvent() {
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    This round will be held in Google meet
+                                    This round will be held in Google meet.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    There will be 4 teams consisting of 5 members each
+                                    There will be 4 teams consisting of 5 members each.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    For each team, there will be at least two judges to lead the group discussion
+                                    For each team, there will be at least two judges to lead the group discussion.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Judging criteria focuses on soft skill of the participants 
+                                    Judging criteria focuses on soft skills of the participants. 
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    The best participant from each team will enter Round 3
+                                    The best participant from each team will enter Round 3.
                                 </li>
                             </ul>
                         </AccordionDetails>
                     </Accordion>
                     <Accordion square expanded={expanded === 'round3'} onChange={AccordionStateChange('round3')}>
                         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-                            <Typography variant='h5' className='round-2-txt'>Round #3 <span className='round-type'>HR</span> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-2-txt'>Round #3 <span className='round-type'>Face-to-face Interview</span> <span className='event-mode'>Online</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Before starting the HR round, all the selected participants are expected to upload their resume 
+                                    Before starting round 3, the selected participants are expected to submit their resume. 
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    This round concentrates on both soft and technical skills
+                                    This round concentrates on both soft and technical skills.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    The best participant would be the winner
-                                </li>
-                                <li>
-                                    <span className='list-arrow'>&#10149;</span> 
-                                    15-20 minutes duration per participant
-                                </li>                                
+                                    The best participant will be the winner.
+                                </li>                                                                
                             </ul>
                         </AccordionDetails>
                     </Accordion>

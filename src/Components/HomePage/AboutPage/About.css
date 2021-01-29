@@ -47,13 +47,14 @@
     color: rgb(255, 255, 255);
     -webkit-font-smoothing: antialiased;
     margin-bottom: 10px;
+    margin-left: 30px;
 }
 
-.about-title::before
+/* .about-title::before
 {
     content: "\201C";
     margin-right: 5px;    
-}
+} */
 
 .about-content
 {

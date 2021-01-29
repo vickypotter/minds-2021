@@ -17,7 +17,7 @@ function Footer() {
                 <div className="footer-flex-box">
                     <div className="contact contact-1">
                         <Tooltip title='19MX126' placement="top"> 
-                            <Typography variant="h6">Vishnubalaji R.K <br/> <span className='roll'>Secretary</span></Typography>
+                            <Typography variant="h6">Vishnubalaji R K <br/> <span className='roll'>Secretary</span></Typography>
                         </Tooltip>
                         <Button className='footer-contact-btn' href="mailto:caa_secretary@yahoo.com " color="primary" startIcon={<MailIcon/>}>caa_secretary@yahoo.com</Button> <br/>                        
                         <Button className='footer-contact-btn' href="tel:9677789028" color="primary" startIcon={<PhoneIphoneIcon/>}>+91 96777 89028</Button> 
