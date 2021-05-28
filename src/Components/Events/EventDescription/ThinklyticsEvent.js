@@ -30,10 +30,11 @@ function ThinklyticsEvent() {
                 <div className="event-info">
                     <Typography variant="h3" align='left'>Thinklytics</Typography>
                     <hr className='hard-line'/>
-                    <Typography variant='h6' align='left' gutterBottom> <br/>
-                        <q>
-                            Are you a data abstractor? Ready to measure and manage the data? Are you looking for a platform to boost your critical thinking? Well, here is a fascinating event to explore your analytical skills. Questions get you answers. Let’s empower the world with your informational insights on data
-                        </q>
+                    <Typography variant='h6' align='left' gutterBottom> <br/>                    
+                        Are you a data abstractor? Ready to measure and manage the data? Are you 
+                        looking for a platform to boost your critical thinking? Well, here is a fascinating 
+                        event to explore your analytical skills. Questions get you answers. Let’s empower the 
+                        world with your informational insights on data.                        
                     </Typography>
                 </div>
                 <div className="event-logo">
@@ -56,7 +57,7 @@ function ThinklyticsEvent() {
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>  
-                                    20 Multiple choice questions to test both your reasoning and analytical skills.
+                                    20 Multiple Choice Questions to test both your reasoning and analytical skills.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
@@ -81,7 +82,7 @@ function ThinklyticsEvent() {
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Shortlisted teams will be announced a day before Round 2.
+                                    Shortlisted teams will be announced a day before Round-2.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
@@ -93,7 +94,7 @@ function ThinklyticsEvent() {
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Winners will be based on the Entity-Relationship model and statistical insights.
+                                    Winners and runners will be decided based on the Entity-Relationship model and statistical insights.
                                 </li>
                             </ul>
                         </AccordionDetails>
@@ -110,7 +111,7 @@ function ThinklyticsEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >09/02/2021</Typography>
+                        <Typography variant='h5' >01/06/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>60</span> <br/>
                             Minutes
@@ -118,7 +119,7 @@ function ThinklyticsEvent() {
                     </div>
                     <div className="round-2-duration">
                         <Typography variant='h6' gutterBottom>Round #2</Typography> 
-                        <Typography variant='h5' >15/02/2021</Typography>
+                        <Typography variant='h5' >03/06/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>60</span> <br/>
                             Minutes
@@ -205,9 +206,9 @@ function ThinklyticsEvent() {
             <div className="bottom-nav">
                 <center>
                     <div className="bottom-nev-box">
-                        <IconButton component={Link} to='/rendezvous' ><ArrowBackIosIcon/></IconButton>
+                        <IconButton component={Link} to='/nethunt' ><ArrowBackIosIcon/></IconButton>
                         <Typography variant='subtitle1' className="bottom-nav-txt">Thinklytics</Typography>
-                        <IconButton component={Link} to='/artistry'><ArrowForwardIosIcon/></IconButton>
+                        <IconButton component={Link} to='/invenirer'><ArrowForwardIosIcon/></IconButton>
                     </div>
                 </center>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { Card } from '@material-ui/core';
-import { Artistry,Invernier,Kodekombat,Nethunt,Rendezvous,Thinklytics } from '../../assets/index';
+import { Invernier,Kodekombat,Nethunt,Thinklytics } from '../../assets/index';
 import { ParallaxDepthCard } from 'experiment-parallax-depth-card';
 import 'experiment-parallax-depth-card/dist/index.css';
 import './EventListStyle.css';
@@ -10,24 +10,25 @@ import MindsLogo from '../../assets/minds2021logowhite.png';
 
 function EventList() {
     return (
+        <Particles>
         <div className="event-list-page">
             <div className="event-list-minds-logo">
                 <a href='/'>
                     <img src={MindsLogo} alt="Minds logo"/>
                 </a>
             </div>
-            <Particles>                            
+            {/* <Particles>                             */}
             <div className="eventPageTitle">
                 <h1>Events</h1>
             </div>
             <div className="eventsBox">
-                <div className="event-card" >
+                {/* <div className="event-card" >
                     <Card component={Link} to='/artistry'>
                         <ParallaxDepthCard backgroundUrl={Artistry} title='Artistry'>
                             <p><q>Test your Creativity</q></p>
                         </ParallaxDepthCard>
                     </Card>
-                </div>
+                </div> */}
                 <div className="event-card">
                     <Card component={Link} to='/invenirer'>
                         <ParallaxDepthCard backgroundUrl={Invernier} title='Invenirer'>
@@ -49,13 +50,13 @@ function EventList() {
                         </ParallaxDepthCard>
                     </Card>
                 </div>
-                <div className="event-card">
+                {/* <div className="event-card">
                     <Card component={Link} to='/rendezvous'>
                         <ParallaxDepthCard backgroundUrl={Rendezvous} title='Rendezvous'>
                             <p><q>Test your Aptness</q></p>
                         </ParallaxDepthCard>
                     </Card>
-                </div>
+                </div> */}
                 <div className="event-card">
                     <Card component={Link} to='/thinklytics'>
                         <ParallaxDepthCard backgroundUrl={Thinklytics} title='Thinklytics'>
@@ -64,9 +65,10 @@ function EventList() {
                     </Card>
                 </div>
             </div>
-            </Particles>
+            {/* </Particles> */}
             <footer></footer> 
         </div>
+        </Particles>
     )
 }
 

@@ -30,10 +30,10 @@ function RendezvouEvent() {
                 <div className="event-info">
                     <Typography variant="h3" align='left'>Rendezvous</Typography>
                     <hr className='hard-line'/>
-                    <Typography variant='h6' align='left' gutterBottom> <br/>
-                        <q>
-                            Is there a way to test your soft skill, technical skill, and know where you stand among all of the participants? Rendezvous is an interview event that helps the participants to know their skills
-                        </q>
+                    <Typography variant='h6' align='left' gutterBottom> <br/>                    
+                        Is there a way to test your soft skill, technical skill, and know where you stand 
+                        among all of the participants? Rendezvous is an interview event that helps the 
+                        participants to know their skills                        
                     </Typography>
                 </div>
                 <div className="event-logo">

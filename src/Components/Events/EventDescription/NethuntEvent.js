@@ -30,11 +30,13 @@ function NethuntEvent() {
                 <div className="event-info">
                     <Typography variant="h3" align='left'>NETHUNT</Typography>
                     <hr className='hard-line'/>
-                    <Typography variant='h6' align='left' gutterBottom> <br/>
-                        <q>
-                            A picture can convey multiple things, find the mysteries abound. A single word may change your mind, but a single picture can twist your mind. This is a place where you can test your intuitions and decisions. You don't always need a plan, sometimes you just need to see the hidden things, notice every aspect, and see what happens. Are you a person who observes things accurately? 
-                            If yes, we present you with a challenge. A challenge that twists every strand of neurons present inside your head
-                        </q>
+                    <Typography variant='h6' align='left' gutterBottom> <br/>                    
+                        A picture can convey multiple things, find the mysteries abound. A single word may 
+                        change your mind, but a single picture can twist your mind. This is a place where 
+                        you can test your intuitions and decisions. You don't always need a plan, sometimes 
+                        you just need to see the hidden things, notice every aspect, and see what happens. 
+                        Are you a person who observes things accurately? If yes, we present you with a challenge. 
+                        A challenge that twists every strand of neurons present inside your head.                        
                     </Typography>
                 </div>
                 <div className="event-logo">
@@ -56,10 +58,10 @@ function NethuntEvent() {
                         <AccordionDetails>
                             <ul className='rules-list'>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> Guess the computer related technical term from image displayed.
+                                    <span className='list-arrow'>&#10149;</span> Guess the computer science related technical term from image displayed.
                                 </li>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> Answers are to be entered in text box provided.
+                                    <span className='list-arrow'>&#10149;</span> Answers should be entered in text box provided.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> Clues will be provided for every image after few tries.
@@ -88,14 +90,14 @@ function NethuntEvent() {
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> Any form of malpractice will lead to disqualification. Organisers have all the rights to disqualify anyone without any prior notice.
                                 </li>
-                                <li>
+                                {/* <li>
                                     <span className='list-arrow'>&#10149;</span> Selection will be made after verification of student’s credentials. Students with invalid credentials will be disqualified.
-                                </li> 
+                                </li>  */}
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> Scores will be reduced according to your hit counts.
                                 </li>
                                 <li>
-                                    <span className='list-arrow'>&#10149;</span> Winners will be announced based on the Leader board.
+                                    <span className='list-arrow'>&#10149;</span> Winners and runners will be decided based on the leaderboard.
                                 </li>                                                              
                             </ul>
                         </AccordionDetails>
@@ -112,9 +114,9 @@ function NethuntEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >05-Feb to 07-Feb</Typography>
+                        <Typography variant='h5' >05-Jun to 06-Jun</Typography>
                         <Typography variant='h2' gutterBottom>
-                            <span>3</span> <br/>
+                            <span>2</span> <br/>
                             Days
                         </Typography>                        
                     </div>
@@ -149,7 +151,7 @@ function NethuntEvent() {
                     </Typography>
                 </div>
 
-                <div className="member-1">
+                {/* <div className="member-1">
                     <Typography variant='h6' gutterBottom>
                         <PersonIcon/> 
                             <Tooltip title='19MX120' placement="top-end">                            
@@ -168,7 +170,7 @@ function NethuntEvent() {
                             <a className="member-contact" href="tel:9952730885">+91 9952730885 </a> 
                         </span>
                     </Typography>
-                </div>
+                </div> */}
             </div>
 
             <br/>
@@ -180,7 +182,7 @@ function NethuntEvent() {
                     <div className="bottom-nev-box">
                         <IconButton component={Link} to='/kodekombat' ><ArrowBackIosIcon/></IconButton>
                         <Typography variant='subtitle1' className="bottom-nav-txt">NetHunt</Typography>
-                        <IconButton component={Link} to='/rendezvous'><ArrowForwardIosIcon/></IconButton>
+                        <IconButton component={Link} to='/thinklytics'><ArrowForwardIosIcon/></IconButton>
                     </div>
                 </center>
             </div>

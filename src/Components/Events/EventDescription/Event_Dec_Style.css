@@ -196,7 +196,7 @@
     background-color: #333;
     text-align: center;
     margin-bottom: 30px;
-    background-image: url('../../../assets/time-bg.jpg');
+    background-image: url('../../../assets/time-bg-2-min.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
@@ -381,7 +381,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* margin-bottom: 20px; */
     padding-bottom: 20px;
 }
 

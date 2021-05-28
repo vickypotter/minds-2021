@@ -30,10 +30,10 @@ function ArtistryEvent() {
                 <div className="event-info">
                     <Typography variant="h3" align='left'>Artistry</Typography>
                     <hr className='hard-line'/>
-                    <Typography variant='h6' align='left' gutterBottom> <br/>
-                        <q>
-                        Do the crazy thing, the ones that are hard to imagine. Create things in your own style to stand out from the crowd. With a good sense of creativity, you can easily turn your pictures into wonder. Grow your skills, enhance your creativity and set yourself up for success! Join us and unleash your inner artist.
-                        </q>
+                    <Typography variant='h6' align='left' gutterBottom> <br/>                        
+                        Do the crazy thing, the ones that are hard to imagine. Create things in your own style to 
+                        stand out from the crowd. With a good sense of creativity, you can easily turn your pictures into wonder. 
+                        Grow your skills, enhance your creativity and set yourself up for success! Join us and unleash your inner artist.                        
                     </Typography>
                 </div>
                 <div className="event-logo">

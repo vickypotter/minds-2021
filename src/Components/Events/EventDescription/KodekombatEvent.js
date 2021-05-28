@@ -30,10 +30,11 @@ function KodekombatEvent() {
                 <div className="event-info">
                     <Typography variant="h3" align='left'>KODE KOMBAT</Typography>
                     <hr className='hard-line'/>
-                    <Typography variant='h6' align='left' gutterBottom> <br/>
-                        <q>
-                            In this event, problem-solving skills will be tested. Snippets will be given and the participants will be given time to solve. The testing will be based on maximum problems solved and time taken. The participants who qualify for the second round will have to face an opponent and the one who finishes the task first will be the winner
-                        </q>
+                    <Typography variant='h6' align='left' gutterBottom> <br/>                    
+                        In this event, problem-solving skills will be tested. Snippets will be given and the 
+                        participants will be given time to solve. The testing will be based on maximum problems 
+                        solved and time taken. The participants who qualify for the second round will have to face 
+                        an opponent and the one who finishes the task first will be the winner.
                     </Typography>
                 </div>
                 <div className="event-logo">
@@ -50,7 +51,7 @@ function KodekombatEvent() {
                 <div className="round-rules">
                     <Accordion square expanded={expanded === 'round1'} onChange={AccordionStateChange('round1')}>
                         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                            <Typography variant='h5' className='round-1-txt'>Round #1 <b className='round-type'>PUZZLE CODE</b> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-1-txt'>Round #1 <b className='round-type'>Puzzle Code</b> <span className='event-mode'>Online</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
@@ -60,7 +61,7 @@ function KodekombatEvent() {
                                 </li>                                
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    The Participants will be solving either by rearranging the jumbled snippets or by solving the snippet to get the expected output.
+                                    The participants will be solving either by rearranging the jumbled snippets or by solving the snippet to get the expected output.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
@@ -78,7 +79,7 @@ function KodekombatEvent() {
                     </Accordion>
                     <Accordion square expanded={expanded === 'round2'} onChange={AccordionStateChange('round2')}>
                         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-                            <Typography variant='h5' className='round-2-txt'>Round #2 <b className='round-type'>CODE WRESTLING</b> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-2-txt'>Round #2 <b className='round-type'>Code Wrestling</b> <span className='event-mode'>Online</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
@@ -88,7 +89,7 @@ function KodekombatEvent() {
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    The Participant who completes the task in the shortest time will be declared as the winner.
+                                    The participant who completes the task in the shortest time will be declared as the winner.
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>Language: <b>C, C++, Java </b>                                   
@@ -108,7 +109,7 @@ function KodekombatEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >16/02/2021</Typography>
+                        <Typography variant='h5' >02/06/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>30</span> <br/>
                             Minutes
@@ -116,7 +117,7 @@ function KodekombatEvent() {
                     </div>
                     <div className="round-2-duration">
                         <Typography variant='h6' gutterBottom>Round #2</Typography> 
-                        <Typography variant='h5' >17/02/2021</Typography>
+                        <Typography variant='h5' >04/06/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>30</span> <br/>
                             Minutes

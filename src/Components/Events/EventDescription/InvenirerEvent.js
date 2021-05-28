@@ -30,10 +30,8 @@ function InvenirerEvent() {
                 <div className="event-info">
                     <Typography variant="h3" align='left'>INVENIRER</Typography>
                     <hr className='hard-line'/>
-                    <Typography variant='h6' align='left' gutterBottom> <br/>
-                        <q>
-                            Are you crazy about your knowledge in computer science and programming? Come and show all your craziness about computer science and justify your love for programming. Invenirer is a coding event where you need to find a solution for the first question and have to use the result of the first question to unleash the second question.
-                        </q>
+                    <Typography variant='h6' align='left' gutterBottom> <br/>                    
+                        Are you crazy about your knowledge in computer science and programming? Come and show all your craziness about computer science and justify your love for programming. Invenirer is a coding event where you need to find a solution for the first question and have to use the result of the first question to unleash the second question.
                     </Typography>
                 </div>
                 <div className="event-logo">
@@ -56,11 +54,11 @@ function InvenirerEvent() {
                             <ul className='rules-list'>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    The Participants have to solve two problems. Solve the second problem using the output of the first.
+                                    The participants have to solve two problems. Solve the second problem using the output of the first problem.
                                 </li> 
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    Winners will be decided based on the completion time and efficiency.
+                                    Winners and runners will be decided based on the completion time and efficiency.
                                 </li> 
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
@@ -68,7 +66,7 @@ function InvenirerEvent() {
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span>
-                                    The Participants can choose their preferred programming language.
+                                    The participants can choose their preferred programming language.
                                 </li>  
                             </ul>
                         </AccordionDetails>
@@ -85,7 +83,7 @@ function InvenirerEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >10/02/2021</Typography>
+                        <Typography variant='h5' >31/05/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>90</span> <br/>
                             Minutes
@@ -148,7 +146,7 @@ function InvenirerEvent() {
             <div className="bottom-nav">
                 <center>
                     <div className="bottom-nev-box">
-                        <IconButton component={Link} to='/artistry' ><ArrowBackIosIcon/></IconButton>
+                        <IconButton component={Link} to='/thinklytics' ><ArrowBackIosIcon/></IconButton>
                         <Typography variant='subtitle1' className="bottom-nav-txt">Invenirer</Typography>
                         <IconButton component={Link} to='/kodekombat'><ArrowForwardIosIcon/></IconButton>
                     </div>
