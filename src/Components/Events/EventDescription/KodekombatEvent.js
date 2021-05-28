@@ -31,10 +31,7 @@ function KodekombatEvent() {
                     <Typography variant="h3" align='left'>KODE KOMBAT</Typography>
                     <hr className='hard-line'/>
                     <Typography variant='h6' align='left' gutterBottom> <br/>                    
-                        In this event, problem-solving skills will be tested. Snippets will be given and the 
-                        participants will be given time to solve. The testing will be based on maximum problems 
-                        solved and time taken. The participants who qualify for the second round will have to face 
-                        an opponent and the one who finishes the task first will be the winner.
+                        Are you fascinated about problem-solving? Test your logical ability by solving the snippets within the stipulated time. The one who solves maximum snippets with minimum time qualifies for the next round. Challenge yourself with other participants that test your ability to compete.
                     </Typography>
                 </div>
                 <div className="event-logo">
@@ -154,7 +151,7 @@ function KodekombatEvent() {
                     </Typography>
                 </div>
 
-                <div className="member-1">
+                {/* <div className="member-1">
                     <Typography variant='h6' gutterBottom>
                         <PersonIcon/> 
                             <Tooltip title='19MX123' placement="top-end">                            
@@ -173,7 +170,7 @@ function KodekombatEvent() {
                             <a className="member-contact" href="tel:9952476890">+91 9952476890 </a> 
                         </span>
                     </Typography>
-                </div>
+                </div> */}
             </div>
 
             <br/>

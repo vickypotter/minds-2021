@@ -31,12 +31,7 @@ function NethuntEvent() {
                     <Typography variant="h3" align='left'>NETHUNT</Typography>
                     <hr className='hard-line'/>
                     <Typography variant='h6' align='left' gutterBottom> <br/>                    
-                        A picture can convey multiple things, find the mysteries abound. A single word may 
-                        change your mind, but a single picture can twist your mind. This is a place where 
-                        you can test your intuitions and decisions. You don't always need a plan, sometimes 
-                        you just need to see the hidden things, notice every aspect, and see what happens. 
-                        Are you a person who observes things accurately? If yes, we present you with a challenge. 
-                        A challenge that twists every strand of neurons present inside your head.                        
+                        A picture can convey multiple things and mysteries abound. A single word may change your mind, but a single picture can twist your mind. This is a place where you can test your intuitions and decisions. You don't always need a plan, sometimes you just need to look for hidden things, notice every aspect, and see what happens. Are you a person who observes things accurately? If yes, we present you with a challenge. A challenge that twists every strand of neurons present inside your head.                       
                     </Typography>
                 </div>
                 <div className="event-logo">

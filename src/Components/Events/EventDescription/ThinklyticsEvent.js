@@ -88,13 +88,13 @@ function ThinklyticsEvent() {
                                     <span className='list-arrow'>&#10149;</span> 
                                     Each team will be provided with a particular dataset wherein they are supposed to find out the key statistical facts.
                                 </li>
-                                <li>
+                                {/* <li>
                                     <span className='list-arrow'>&#10149;</span> 
                                     Also, each team will be provided with a topic relevant to their dataset to bring up an efficient Entity-Relationship model.
-                                </li>
+                                </li> */}
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Winners and runners will be decided based on the Entity-Relationship model and statistical insights.
+                                    Winners and runners will be decided based on the statistical insights.
                                 </li>
                             </ul>
                         </AccordionDetails>

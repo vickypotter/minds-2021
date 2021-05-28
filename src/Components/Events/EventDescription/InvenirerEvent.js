@@ -31,7 +31,7 @@ function InvenirerEvent() {
                     <Typography variant="h3" align='left'>INVENIRER</Typography>
                     <hr className='hard-line'/>
                     <Typography variant='h6' align='left' gutterBottom> <br/>                    
-                        Are you crazy about your knowledge in computer science and programming? Come and show all your craziness about computer science and justify your love for programming. Invenirer is a coding event where you need to find a solution for the first question and have to use the result of the first question to unleash the second question.
+                        Are you crazy about programming skills? Come and show all your craziness about programming skills and justify your love for programming. Invenirer is a coding event where you need to find a solution for the given question and use this result to unleash the next question.
                     </Typography>
                 </div>
                 <div className="event-logo">
