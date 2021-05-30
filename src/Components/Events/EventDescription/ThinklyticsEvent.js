@@ -51,7 +51,7 @@ function ThinklyticsEvent() {
                 <div className="round-rules">
                     <Accordion square expanded={expanded === 'round1'} onChange={AccordionStateChange('round1')}>
                         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                            <Typography variant='h5' className='round-1-txt'>Round #1 <span className='round-type'>Off-Stage</span> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-1-txt'>Round #1 <span className='round-type'>Cognitive assessment</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
@@ -62,13 +62,17 @@ function ThinklyticsEvent() {
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
                                     Only individual participation is allowed.
+                                </li> 
+                                <li>
+                                    <span className='list-arrow'>&#10149;</span> 
+                                    Off stage event and only individual participation is allowed.
                                 </li>                                
                             </ul>
                         </AccordionDetails>
                     </Accordion>
                     <Accordion square expanded={expanded === 'round2'} onChange={AccordionStateChange('round2')}>
                         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-                            <Typography variant='h5' className='round-2-txt'>Round #2 <span className='round-type'>On-Stage</span> <span className='event-mode'>Online</span></Typography>
+                            <Typography variant='h5' className='round-2-txt'>Round #2 <span className='round-type'>Exploratory data analysis</span></Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
@@ -87,14 +91,14 @@ function ThinklyticsEvent() {
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
                                     Each team will be provided with a particular dataset wherein they are supposed to find out the key statistical facts.
-                                </li>
-                                {/* <li>
-                                    <span className='list-arrow'>&#10149;</span> 
-                                    Also, each team will be provided with a topic relevant to their dataset to bring up an efficient Entity-Relationship model.
-                                </li> */}
+                                </li>                                
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
                                     Winners and runners will be decided based on the statistical insights.
+                                </li>
+                                <li>
+                                    <span className='list-arrow'>&#10149;</span> 
+                                    Exploratory Data Analysis round is an On-Stage event.
                                 </li>
                             </ul>
                         </AccordionDetails>
@@ -111,15 +115,15 @@ function ThinklyticsEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >01/06/2021</Typography>
+                        <Typography variant='h5' >05/06/2021</Typography>
                         <Typography variant='h2' gutterBottom>
-                            <span>60</span> <br/>
+                            <span>30</span> <br/>
                             Minutes
                         </Typography>                        
                     </div>
                     <div className="round-2-duration">
                         <Typography variant='h6' gutterBottom>Round #2</Typography> 
-                        <Typography variant='h5' >03/06/2021</Typography>
+                        <Typography variant='h5' >07/06/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>60</span> <br/>
                             Minutes

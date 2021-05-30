@@ -75,114 +75,62 @@ export default function Tables() {
                 </TableRow>
             </TableHead>
             <TableBody>
-                {/* Row 1 */}
+                {/* Row - Invenirer */}
                 <TableRow >                            
                     <StyledTableCell align="center">
                         <Typography component={Link} to='/invenirer' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Invenirer</Typography>
                     </StyledTableCell>
-                    <StyledTableCell align="center">31-05-2021</StyledTableCell>
+                    <StyledTableCell align="center">04-06-2021</StyledTableCell>
                     <StyledTableCell align="center">05:00pm - 06:30pm</StyledTableCell>
                 </TableRow>
 
-                {/* Row 2 */}
-                {/* <TableRow >                            
-                    <StyledTableCell align="center" rowSpan={2}>
-                        <Typography component={Link} to='/artistry' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Artistry</Typography>
-                    </StyledTableCell>
-                    <StyledTableCell align="center">28-05-2021</StyledTableCell>
-                    <StyledTableCell align="center" rowSpan={2}>2 Days</StyledTableCell>
-                </TableRow> */}
-
-                {/* <TableRow >            
-                    <StyledTableCell align="center">29-05-2021</StyledTableCell>
-                </TableRow> */}
-
-                {/* Row - 3 */}
+                {/* Row - Thinklytics 1st */}
                 <TableRow>                            
                     <StyledTableCell align="center">
                         <Typography component={Link} to='/thinklytics' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Thinklytics - 1st Round</Typography>
                     </StyledTableCell>
-                    <StyledTableCell align="center">01-06-2021</StyledTableCell>
-                    <StyledTableCell align="center">05:00pm - 06:00pm</StyledTableCell>
-                </TableRow>
+                    <StyledTableCell align="center">05-06-2021</StyledTableCell>
+                    <StyledTableCell align="center">05:00pm - 05:30pm</StyledTableCell>
+                </TableRow>           
 
-                {/* Row - 4 */}
-                {/* <TableRow>                            
-                    <StyledTableCell align="center">
-                        <Typography component={Link} to='/rendezvous' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Rendezvous - 1st Round</Typography>
-                    </StyledTableCell>
-                    <StyledTableCell align="center">01-06-2021</StyledTableCell>
-                    <StyledTableCell align="center">05:00pm - 06:00pm</StyledTableCell>
-                </TableRow> */}
-
-                {/* Row - 5 */}
-                {/* <TableRow >                            
-                    <StyledTableCell align="center">
-                        <Typography component={Link} to='/rendezvous' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Rendezvous - 2nd Round</Typography>
-                    </StyledTableCell>
-                    <StyledTableCell align="center">02-06-2021</StyledTableCell>
-                    <StyledTableCell align="center">05:00pm - 06:00pm</StyledTableCell>
-                </TableRow> */}
-
-                {/* Row - 6 */}
-                {/* <TableRow >                            
-                    <StyledTableCell align="center">
-                        <Typography component={Link} to='/rendezvous' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Rendezvous - Final Round</Typography>
-                    </StyledTableCell>
-                    <StyledTableCell align="center">03-06-2021</StyledTableCell>
-                    <StyledTableCell align="center">05:00pm - 06:00pm</StyledTableCell>
-                </TableRow> */}
-
-                {/* Row - 7 */}
-                {/* <TableRow >                            
+                {/* Row - Thinklytics 2nd */}
+                <TableRow >                            
                     <StyledTableCell align="center">
                         <Typography component={Link} to='/thinklytics' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Thinklytics - Final Round</Typography>
                     </StyledTableCell>
-                    <StyledTableCell align="center">02-06-2021</StyledTableCell>
+                    <StyledTableCell align="center">07-06-2021</StyledTableCell>
                     <StyledTableCell align="center">05:00pm - 06:00pm</StyledTableCell>
-                </TableRow> */}
+                </TableRow>          
 
-                
-
-                {/* Row - 9 */}
+                {/* Row - Kode Kombat 1st */}
                 <TableRow >                            
                     <StyledTableCell align="center">
                         <Typography component={Link} to='/kodekombat' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Kode Kombat - 1st Round</Typography>
                     </StyledTableCell>
-                    <StyledTableCell align="center">02-06-2021</StyledTableCell>
+                    <StyledTableCell align="center">08-06-2021</StyledTableCell>
                     <StyledTableCell align="center">05:00pm - 06:00pm</StyledTableCell>
-                </TableRow>
+                </TableRow>                
 
-                {/* Row - 7 */}
-                <TableRow >                            
-                    <StyledTableCell align="center">
-                        <Typography component={Link} to='/thinklytics' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Thinklytics - Final Round</Typography>
-                    </StyledTableCell>
-                    <StyledTableCell align="center">03-06-2021</StyledTableCell>
-                    <StyledTableCell align="center">05:00pm - 06:00pm</StyledTableCell>
-                </TableRow>
-
-                {/* Row - 10 */}
+                {/* Row - Kode Kombat 2nd */}
                 <TableRow >                            
                     <StyledTableCell align="center">
                         <Typography component={Link} to='/kodekombat' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>Kode Kombat - Final Round</Typography>
                     </StyledTableCell>
-                    <StyledTableCell align="center">04-06-2021</StyledTableCell>
+                    <StyledTableCell align="center">10-06-2021</StyledTableCell>
                     <StyledTableCell align="center">05:00pm - 06:00pm</StyledTableCell>
-                </TableRow>                  
+                </TableRow>   
 
-
-                {/* Row - 8 */}
+                {/* Row - NetHunt */}
                 <TableRow >                            
                     <StyledTableCell align="center" rowSpan={3}>
                         <Typography component={Link} to='/nethunt' variant='subtitle1' style={{textDecoration:'none', color:'black'}}>NetHunt</Typography>
                     </StyledTableCell>
-                    <StyledTableCell align="center">05-06-2021</StyledTableCell>
+                    <StyledTableCell align="center">12-06-2021</StyledTableCell>
                     <StyledTableCell align="center"  rowSpan={2}>2 Days</StyledTableCell>
                 </TableRow>
 
                 <TableRow > 
-                    <StyledTableCell align="center">06-06-2021</StyledTableCell>
+                    <StyledTableCell align="center">13-06-2021</StyledTableCell>
                 </TableRow>
                       
             </TableBody>                    

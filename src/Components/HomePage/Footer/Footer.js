@@ -7,6 +7,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import MailOutlineOutlinedIcon from '@material-ui/icons/MailOutlineOutlined';
 import SendIcon from '@material-ui/icons/Send';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -74,19 +75,19 @@ function Footer() {
                 <div className="footer-nav-link">
                     <ul>
                         <li>
-                            <a href="/">Home</a>
+                            <Link to="/">Home</Link>
                         </li>
                         <li> | </li>
                         <li>
-                            <a href="/#about">About</a> 
+                            <Link to="/#about">About</Link> 
                         </li>
                         <li> | </li>
                         <li>
-                            <a href="/events">Events</a>
+                            <Link to="/events">Events</Link>
                         </li>
                         <li> | </li>
                         <li>
-                            <a href="/schedule">Schedule</a> 
+                            <Link to="/schedule">Schedule</Link> 
                         </li>
                     </ul>
                 </div>

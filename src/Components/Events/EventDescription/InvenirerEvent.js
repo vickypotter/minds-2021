@@ -83,7 +83,7 @@ function InvenirerEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >31/05/2021</Typography>
+                        <Typography variant='h5' >04/06/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>90</span> <br/>
                             Minutes

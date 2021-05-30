@@ -106,7 +106,7 @@ function KodekombatEvent() {
                 <div className="duration-box">
                     <div className="round-1-duration">
                         <Typography variant='h6' gutterBottom>Round #1</Typography>
-                        <Typography variant='h5' >02/06/2021</Typography>
+                        <Typography variant='h5' >08/06/2021</Typography>
                         <Typography variant='h2' gutterBottom>
                             <span>30</span> <br/>
                             Minutes
@@ -114,10 +114,10 @@ function KodekombatEvent() {
                     </div>
                     <div className="round-2-duration">
                         <Typography variant='h6' gutterBottom>Round #2</Typography> 
-                        <Typography variant='h5' >04/06/2021</Typography>
+                        <Typography variant='h5' >10/06/2021</Typography>
                         <Typography variant='h2' gutterBottom>
-                            <span>30</span> <br/>
-                            Minutes
+                            <span>1</span> <br/>
+                            Hour
                         </Typography>                        
                     </div>
                 </div>
