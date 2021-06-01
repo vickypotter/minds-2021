@@ -19,7 +19,7 @@ function EventList() {
             </div>
             {/* <Particles>                             */}
             <div className="eventPageTitle">
-                <h1>Events</h1>
+                <h1>EVENTS</h1>
             </div>
             <div className="eventsBox">
                 {/* <div className="event-card" >

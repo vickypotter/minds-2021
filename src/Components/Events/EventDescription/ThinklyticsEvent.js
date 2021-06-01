@@ -61,10 +61,6 @@ function ThinklyticsEvent() {
                                 </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
-                                    Only individual participation is allowed.
-                                </li> 
-                                <li>
-                                    <span className='list-arrow'>&#10149;</span> 
                                     Off stage event and only individual participation is allowed.
                                 </li>                                
                             </ul>
@@ -76,6 +72,10 @@ function ThinklyticsEvent() {
                         </AccordionSummary>
                         <AccordionDetails>
                             <ul className='rules-list'>
+                                <li>
+                                    <span className='list-arrow'>&#10149;</span> 
+                                    Exploratory Data Analysis round is an On-Stage event.
+                                </li>
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
                                     Maximum 2 members per team.
@@ -95,11 +95,7 @@ function ThinklyticsEvent() {
                                 <li>
                                     <span className='list-arrow'>&#10149;</span> 
                                     Winners and runners will be decided based on the statistical insights.
-                                </li>
-                                <li>
-                                    <span className='list-arrow'>&#10149;</span> 
-                                    Exploratory Data Analysis round is an On-Stage event.
-                                </li>
+                                </li>                                
                             </ul>
                         </AccordionDetails>
                     </Accordion>                    

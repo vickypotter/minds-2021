@@ -69,7 +69,7 @@ function Schedule() {
                     </a>
                 </div>
                 <div className="schedule-title">
-                    <Typography variant="h4" className={classes.schedule} align="center" gutterBottom>Schedule</Typography>
+                    <Typography variant="h4" className={classes.schedule} align="center" gutterBottom>SCHEDULE</Typography>
                 </div>
                 <center>
                     <Tables/>

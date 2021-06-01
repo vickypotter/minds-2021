@@ -31,7 +31,7 @@ function KodekombatEvent() {
                     <Typography variant="h3" align='left'>KODE KOMBAT</Typography>
                     <hr className='hard-line'/>
                     <Typography variant='h6' align='left' gutterBottom> <br/>                    
-                        Are you fascinated about problem-solving? Test your logical ability by solving the snippets within the stipulated time. The one who solves maximum snippets with minimum time qualifies for the next round. Challenge yourself with other participants that test your ability to compete.
+                    Are you fascinated about problem-solving? Test your logical ability by solving the snippets within the stipulated time. The one who solves maximum snippets with minimum time qualifies for the next round. Challenge yourself with other participants and test your ability to compete.
                     </Typography>
                 </div>
                 <div className="event-logo">

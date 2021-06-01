@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactParticles from "react-particles-js";
 import './MainAnimation.css';
-import MindsLogo from '../../../assets/minds_2021_Logo.png';
+// import MindsLogo from '../../../assets/minds_2021_Logo.png';
+import MindsLogo from '../../../assets/logo.png';
 import Tilt from 'react-parallax-tilt';
-import Typography from '@material-ui/core/Typography'
+// import Typography from '@material-ui/core/Typography'
 
 function MainAnimation() {
     return (
@@ -11,10 +12,10 @@ function MainAnimation() {
           <Particles>          
             <div className="main-page-logo-box">
                 <Tilt tiltReverse={true}>
-                  <Typography variant="h3" className='main-anim-title clg-name'>PSG College of Technology</Typography>
-                  <Typography variant="h5" className='main-anim-title dept-name'>Department of Computer Applications</Typography>
-                  <Typography variant="h5" className='main-anim-title caa-name'>Computer Applications Association</Typography>
-                    <img src={MindsLogo} alt="" className="main-page-minds-logo"/>
+                  {/* <Typography variant="h3" className='main-anim-title clg-name'>PSG College of Technology</Typography> */}
+                  {/* <Typography variant="h5" className='main-anim-title dept-name'>Department of Computer Applications</Typography> */}
+                  {/* <Typography variant="h5" className='main-anim-title caa-name'>Computer Applications Association</Typography> */}
+                  <img src={MindsLogo} alt="" className="main-page-minds-logo"/>
                 </Tilt>
                 <a href="#about" className='read-more-btn'><span className='explore-span'>Explore</span></a>
             </div>

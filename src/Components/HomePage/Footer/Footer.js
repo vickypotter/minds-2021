@@ -13,7 +13,7 @@ function Footer() {
     return (
         <div className='footer-box'>
             <div className='footer-content'>
-                <Typography variant="h5" className='contact-title'>Contact <span className='dot'></span></Typography>
+                <Typography variant="h5" className='contact-title'>CONTACT<span className='dot'></span></Typography>
                 <hr className="footer-line"/>
                 <div className="footer-flex-box">
                     <div className="contact contact-1">

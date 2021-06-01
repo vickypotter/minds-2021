@@ -67,6 +67,16 @@
     color: rgb(255, 255, 255);
 }
 
+.about-content>a {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+
+}
+
 .about-minds-logo 
 {
     position: relative;

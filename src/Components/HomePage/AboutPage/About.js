@@ -12,7 +12,7 @@ function About() {
                     <h3 className='about-title'>About</h3>
                     <p className='about-content'>
                         Presenting the most exciting tech fest MINDS-2k21 Organized by Computer 
-                        Applications Association, Department of Computer Applications, PSG College of Technology. <br/> <br/>
+                        Applications Association, Department of Computer Applications, <a href="https://www.psgtech.edu/" rel="noreferrer" target='_blank'>PSG College of Technology.</a> <br/> <br/>
                         MINDS is an intra-departmental annual event hosted by the second year MCA students exclusively 
                         for the freshers featuring an array of technical and non-technical events that helps the student 
                         fraternity explore various dynamics of technology and knowledge. <br/> <br/>
